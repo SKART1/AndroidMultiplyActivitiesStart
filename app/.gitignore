@@ -1,0 +1,17 @@
+/out/
+/gen/
+/.idea/
+/.externalToolBuilders/
+/obj/
+/target/
+/*.properties
+/*.properties~
+/*.gitignore~
+/bin
+*.iml
+/.settings/
+/libs/
+/.DS_Store
+/gen-external-apklibs
+/build/
+/.gradle/
