@@ -1,4 +1,10 @@
 <resources>
-    <string name="app_name">TestApp</string>
-    <string name="title_activity_main2">Main2Activity</string>
+    <string name="app_name">1B2C2A</string>
+    <string name="first_activity">FirstActivity</string>
+    <string name="second_activity">SecondActivity</string>
+    <string name="log_tag">1B_2C_2A</string>
+    <string name="first_activity_main_description">One Button Two Clicks Two Activities - is an app which show that there
+        is a possibility of receiving multiply opened activities when tapping multiply times on one
+        button</string>
+    <string name="first_activity_button_text">Click me multiply times =)</string>
 </resources>
