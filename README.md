@@ -1,13 +1,15 @@
 ## SimpleRecyclerViewDivider
-One Button Two Clicks Two Activities - is an app which show that there is a possibility of receiving multiply opened activities when tapping multiply times on one button.
-This app is designed to be as simple as possible - so some of the goad approaches in android programming are ignored (multiply drawable for different density, different app themes and etc).
+**One Button Two Clicks Two Activities** - is an app which show that there is a possibility of receiving multiply opened activities when tapping multiply times on one button.
+Of course you may just add `Intent.FLAG_ACTIVITY_SINGLE_TOP` and all will work - but not always it is possible. This app illustrate such case - that in some cases you will need to, for example, manually filter user input not to meet such cases 
+This app is designed to be as simple as possible - so some of the good approaches in android programming are ignored (multiply drawable for different density, different app themes and etc).
 
 
 ## Compilation
 It is simple app. Just compile it with gradle and use
 
 ## Usage
-Click speedy on big button on first activities. You will receive
+Click speedy on big button on first activities. After some period of time you will have from 1 to 3 or more opened activities - instances of the same one class.
+It will not be easy to understand how much of them have opened - so there is counter in the upper left corner of the **SecondActivity** which incremented after each instance is created
 
 
 ## Contributing
